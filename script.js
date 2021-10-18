@@ -30,7 +30,6 @@ function singleQuote() {
 async function getQuotes() {
   loading();
   const apiUrl = "https://type.fit/api/quotes";
-
   try {
     const response = await fetch(apiUrl);
     allQuotes = await response.json();
