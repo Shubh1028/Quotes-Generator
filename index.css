@@ -30,7 +30,7 @@ body {
 }
 .quote-author {
   font-size: 1.5rem;
-  margin-top: 0.5rem;
+  margin-top: 0.9rem;
   font-style: italic;
 }
 .quote-button {
@@ -57,6 +57,25 @@ button:hover {
 }
 .font-twitter {
   font-size: 1.2rem !important;
+}
+
+/*Loader Css*/
+.loader {
+  border: 16px solid #e5dfdb; /* Light grey */
+  border-top: 16px solid tomato; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media screen and (max-width: 1000px) {

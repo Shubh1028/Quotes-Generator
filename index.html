@@ -12,23 +12,21 @@
     <title>Quotes Generator</title>
   </head>
   <body>
-    <div class="quote-container">
+    <div class="quote-container" id="quote-box">
       <div class="quote-text">
         <i class="fa fa-quote-left"></i>
-        <span id="quote"
-          >Here The Text Will . Text Will come here and add a value yto it.hello
-          my name is shubh. that is alll i want to say ghbjvb'po; ;kmbv;dfbv
-          d,;lvldfs,vfd</span
-        >
+        <span id="quote-text-box"></span>
         <i class="fa fa-quote-right left-quote"></i>
       </div>
-      <div class="quote-author">- Shubh</div>
+      <div class="quote-author" id="quote-author-box"></div>
       <div class="quote-button">
-        <button>
+        <button id="twitter-button">
           <i class="fa fa-twitter font-twitter"></i>
         </button>
-        <button>New Quote</button>
+        <button id="new-quote-button">New Quote</button>
       </div>
     </div>
+    <div class="loader" id="loader"></div>
+    <script src="./script.js"></script>
   </body>
 </html>
