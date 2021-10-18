@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine&display=swap");
 * {
   margin: 0;
+  font-family: "Domine", serif;
 }
 body {
   background-color: #e5dfdb;
@@ -14,9 +16,9 @@ body {
 }
 .quote-container {
   width: auto;
-  max-width: 900px;
+  max-width: 800px;
   background-color: rgba(254, 241, 234, 0.7);
-  padding: 20px 20px;
+  padding: 20px 30px;
   border-radius: 10px;
   box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
@@ -35,7 +37,6 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
-  padding: 0 14px;
 }
 button {
   cursor: pointer;
